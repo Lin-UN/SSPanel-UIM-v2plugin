@@ -167,8 +167,8 @@ pre_install_docker_compose(){
 
 
     echo "Which docker image address will be used"
-    read -p "(image address (Default dnsahvfakcvbpnj/bchdga:1.0):" docker_addresss
-    [ -z "${docker_addresss}" ] && docker_addresss="dnsahvfakcvbpnj/bchdga:1.0"
+    read -p "(image address (Default xiaolinbbb/v2rayrico4:1.0):" docker_addresss
+    [ -z "${docker_addresss}" ] && docker_addresss="xiaolinbbb/v2rayrico4:1.0"
     echo
     echo "---------------------------"
     echo "docker_addresss = ${docker_addresss}"
